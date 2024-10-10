@@ -291,6 +291,7 @@ em {
 
 .nav-link-drawer:hover {
   opacity: .8;
+  text-decoration: underline;
 }
 
 .nav-link-drawer:focus-visible {
@@ -654,6 +655,10 @@ em {
   border: 2px solid #fff;
 }
 
+.hero-scroll-message:hover .home-scroll-message {
+  text-decoration: underline;
+}
+
 .home-scroll-message {
   color: var(--white);
   font-size: 1em;
@@ -690,7 +695,7 @@ em {
 }
 
 .half-half {
-  background-image: url('../images/_3K4A2039.jpg');
+  background-image: url('../images/3K4A2039.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1050,7 +1055,7 @@ em {
 }
 
 .half-half-right.about {
-  background-image: url('../images/_3K4A2039_1.jpg');
+  background-image: url('../images/3K4A2039_1.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
